@@ -1,14 +1,8 @@
-import React from "react";
 import usePostsAndTodos from "../../api/api";
 
 const PostsAndTodos = () => {
   const { data, error, loading } = usePostsAndTodos();
 
-  if (loading) {
-    return <h1>Loading...</h1>;
-  }
-
-  console.log(123);
   return (
     <div className="main">
       <div className="posts">
