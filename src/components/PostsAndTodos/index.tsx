@@ -7,10 +7,8 @@ const PostsAndTodos = () => {
   if (loading) {
     return <h1>Loading...</h1>;
   }
-  if (error) {
-    return <h1>{error.message}</h1>;
-  }
 
+  console.log(123);
   return (
     <div className="main">
       <div className="posts">
